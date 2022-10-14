@@ -22,14 +22,5 @@ def signup():
 def signin():
     return render_template('signin.html')
 
-    
-
-# @app.route('/blog/<post_id>')
-# def show_post(post_id):
-#     return post_id
-
-
-
-# @app.route("/profiles/<username>")
-# def profiles(username):
-#     return "Hello!" + username 
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
